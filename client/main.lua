@@ -46,28 +46,6 @@ Citizen.CreateThread(function()
             local luck = math.random(1,100)
             local ped = PlayerPedId()
             local vehicle = GetVehiclePedIsIn(ped, false)
-            
-            if luck >= 0 and luck <= 5 then
-                SetVehicleColours(vehicle, luck)
-             elseif luck > 5 and luck <= 10 then
-                SetVehicleColours(vehicle, luck)
-             elseif luck > 10 and luck <= 20 then
-             SetVehicleColours(vehicle, luck)
-                elseif luck > 20 and luck <= 30 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 30 and luck <= 40 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 40 and luck <= 50 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 50 and luck <= 60 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 60 and luck <= 70 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 70 and luck <= 80 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 80 and luck <= 90 then
-                SetVehicleColours(vehicle, luck)
-            elseif luck > 90 and luck <= 100 then
                 SetVehicleColours(vehicle, luck)
             end
             TriggerServerEvent('paraal', source)
